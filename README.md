@@ -4,6 +4,7 @@ Graduate project 2 - Data driven
 1. Clone repository:
 ```bash
 git clone https://github.com/coffeeBeansz/pokemon_insights.git
+```
 
 2. Install requirements:
 ```bash
