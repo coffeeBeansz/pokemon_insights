@@ -34,7 +34,7 @@ dbt_project:
 python3 extract_raw.py
 ```
 
-5. To prepare the data, cd to the dbt_project folder and run:
+5. To prepare the data, cd to the dbt_project inside your repo and run:
 ```bash
 dbt run
 ```
