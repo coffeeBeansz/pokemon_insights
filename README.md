@@ -4,8 +4,8 @@ That's what the project contained in this repo tries to find out!
 By fetching all the data from the pokeapi into a duckdb database, transforming the data using dbt into a clean, well structured table suitable for our task, we finally produce insights into how the color of the pokèmons relate to its type.
 
 <p float="left">
-  <img src="fire_pokemons_readme_display.png" alt="Distribution of colors for pokèmons of type fire." width="300" />
-  <img src="ice_pokemons_readme_display.png" alt="Distribution of colors for pokèmons of type ice." width="300" />
+  <img src="fire_pokemons_readme_display.png" alt="Distribution of colors for pokèmons of type fire." width="400" />
+  <img src="ice_pokemons_readme_display.png" alt="Distribution of colors for pokèmons of type ice." width="400" />
 </p>
 
 
