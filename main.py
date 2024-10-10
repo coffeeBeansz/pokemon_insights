@@ -37,7 +37,8 @@ def get_pokemons_of_type(type_name):
 
 
 def compute_color_percentages_for_type(type_pokemons_df):
-    color_percentages = type_pokemons_df.groupby('color_name').size()
+    number_of_pokemons = get_number_of_pokemons()
+    color_percentages = type_pokemons_df.groupby('color_name').size()/number_of_pokemons
     return color_percentages
 
 
