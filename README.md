@@ -17,16 +17,17 @@ dbt_project:
   outputs:
     dev:
       type: duckdb
-      path: /repos/pokemon_insights/pokeapi_database.duckdb
+      path: <path_to_repo>/pokeapi_database.duckdb
       threads: 1
 
     prod:
       type: duckdb
-      path: /repos/pokemon_insights/pokeapi_database.duckdb
+      path: <path_to_repo>/pokeapi_database.duckdb
       threads: 4
 
   target: dev
   ```
+  where <path_to_repo> should be replaced by the path to the github repo on your computer.
 
 4. To fetch raw data from pokeapi, cd to repo and run:
 ```bash
