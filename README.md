@@ -3,6 +3,10 @@
 That's what the project contained in this repo tries to find out!
 By fetching all the data from the pokeapi into a duckdb database, transforming the data using dbt into a clean, well structured table suitable for our task, we finally produce insights into how the color of the pokèmons relate to its type.
 
+![Distribution of colors for pokèmons of type fire.](fire_pokemons_readme_display.png)
+
+### How to run the code:
+
 1. Clone repository:
 ```bash
 git clone https://github.com/coffeeBeansz/pokemon_insights.git
