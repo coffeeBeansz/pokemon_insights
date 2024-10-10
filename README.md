@@ -18,7 +18,7 @@ git clone https://github.com/coffeeBeansz/pokemon_insights.git
 
 2. Install python and pip:
 ```bash
-sudo apt install python3, python3-pip
+sudo apt install python3 python3-pip
 ```
 
 3. Create a virtual environment and install the requirements to it:
